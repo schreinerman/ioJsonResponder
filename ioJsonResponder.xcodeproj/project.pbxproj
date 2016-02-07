@@ -1,0 +1,250 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		329396A91C66B4BC00D9D447 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 329396A81C66B4BC00D9D447 /* main.c */; };
+		329396B11C66B4FF00D9D447 /* ioJsonResponder.c in Sources */ = {isa = PBXBuildFile; fileRef = 329396AF1C66B4FF00D9D447 /* ioJsonResponder.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		329396A31C66B4BC00D9D447 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		329396A51C66B4BC00D9D447 /* ioJsonResponder */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ioJsonResponder; sourceTree = BUILT_PRODUCTS_DIR; };
+		329396A81C66B4BC00D9D447 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		329396AF1C66B4FF00D9D447 /* ioJsonResponder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioJsonResponder.c; sourceTree = "<group>"; };
+		329396B01C66B4FF00D9D447 /* ioJsonResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioJsonResponder.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		329396A21C66B4BC00D9D447 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3293969C1C66B4BC00D9D447 = {
+			isa = PBXGroup;
+			children = (
+				329396A71C66B4BC00D9D447 /* ioJsonResponder */,
+				329396A61C66B4BC00D9D447 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		329396A61C66B4BC00D9D447 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				329396A51C66B4BC00D9D447 /* ioJsonResponder */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		329396A71C66B4BC00D9D447 /* ioJsonResponder */ = {
+			isa = PBXGroup;
+			children = (
+				329396A81C66B4BC00D9D447 /* main.c */,
+				329396AF1C66B4FF00D9D447 /* ioJsonResponder.c */,
+				329396B01C66B4FF00D9D447 /* ioJsonResponder.h */,
+			);
+			path = ioJsonResponder;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		329396A41C66B4BC00D9D447 /* ioJsonResponder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 329396AC1C66B4BC00D9D447 /* Build configuration list for PBXNativeTarget "ioJsonResponder" */;
+			buildPhases = (
+				329396A11C66B4BC00D9D447 /* Sources */,
+				329396A21C66B4BC00D9D447 /* Frameworks */,
+				329396A31C66B4BC00D9D447 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ioJsonResponder;
+			productName = ioJsonResponder;
+			productReference = 329396A51C66B4BC00D9D447 /* ioJsonResponder */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3293969D1C66B4BC00D9D447 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "io-expert.com";
+				TargetAttributes = {
+					329396A41C66B4BC00D9D447 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 329396A01C66B4BC00D9D447 /* Build configuration list for PBXProject "ioJsonResponder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3293969C1C66B4BC00D9D447;
+			productRefGroup = 329396A61C66B4BC00D9D447 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				329396A41C66B4BC00D9D447 /* ioJsonResponder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		329396A11C66B4BC00D9D447 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				329396B11C66B4FF00D9D447 /* ioJsonResponder.c in Sources */,
+				329396A91C66B4BC00D9D447 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		329396AA1C66B4BC00D9D447 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		329396AB1C66B4BC00D9D447 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		329396AD1C66B4BC00D9D447 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		329396AE1C66B4BC00D9D447 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		329396A01C66B4BC00D9D447 /* Build configuration list for PBXProject "ioJsonResponder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				329396AA1C66B4BC00D9D447 /* Debug */,
+				329396AB1C66B4BC00D9D447 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		329396AC1C66B4BC00D9D447 /* Build configuration list for PBXNativeTarget "ioJsonResponder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				329396AD1C66B4BC00D9D447 /* Debug */,
+				329396AE1C66B4BC00D9D447 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3293969D1C66B4BC00D9D447 /* Project object */;
+}
